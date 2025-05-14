@@ -1,0 +1,219 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#aktualnosci{
+    text-align: center;
+    color: rgb(0, 0, 0);  
+}
+
+
+header{
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    color: white;
+}
+#header1{
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+#header2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 140px;
+    float: left;
+    font-family: cursive;
+    font-size: 80px;
+}
+#header3{
+    width: 25%;
+    float: left;
+    height: 100%;
+
+}
+
+#godlo{
+    
+    
+    height: 90%;
+    margin-top: 2%;
+    margin-left: 20px;
+}
+#menu{
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin: 0px;
+    padding: 16px 0px 16px 0px;
+    text-decoration: none;
+
+}
+#menu:hover{
+    background-color: grey;
+    color: white;
+    font-size: bold;
+}
+a:link,
+a:visited,
+a:active{
+    color:black
+}
+
+
+
+#next {
+    width: 80%;
+    max-width: 1080px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#next form {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+}
+
+#next h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffdcae;
+}
+
+#next input[type="text"],
+#next input[type="number"],
+#next select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#next input[type="text"]:focus,
+#next input[type="number"]:focus,
+#next select:focus {
+    border-color: #ffdcae;
+    outline: none;
+}
+
+#next button[type="submit"],
+#next button[type="button"] {
+    background: #ffdcae;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+#next button[type="submit"]:hover,
+#next button[type="button"]:hover {
+    background: #ffcf90;
+    color: #2c3e50;
+}
+
+
+#next ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#next ul li {
+    padding: 15px;
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-left: 4px solid #ffdcae;
+    transition: transform 0.2s ease;
+}
+
+#next ul li:hover {
+    transform: translateX(10px);
+}
+
+
+#listy_klas form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#listy_klas select {
+    flex-grow: 1;
+}
+
+#dodaj_osobe,
+#dodaj_klase,
+#przypisz_ucznia,
+#wykazy,
+#listy_klas {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.przyciski_kafelki {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.kafelek {
+    width: 100px;
+    height: 100px;
+    background-color: #ffdcae;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.kafelek:hover {
+    background-color: #291803;
+    color: white;
+}
+
+.lesson-table {
+            background-color: white;
+        }
+.lesson-table th {
+            background-color: #f8f9fa;
+            vertical-align: middle;
+        }
+.lesson-cell {
+            min-width: 150px;
+            height: 80px;
+        }
