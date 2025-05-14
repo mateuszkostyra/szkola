@@ -1,2 +1,4 @@
 # Ignoruj pliki bazy danych
 polaczenie.php
+*.log
+*.sql
